@@ -1,3 +1,225 @@
-<html>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multilingual Government Scheme Assistant</title>
+</head>
+<body>
+        <header class="header">
+            <div class="logo">
+                <h1 id="site-title">
+                    Multilingual Government Scheme Assistant
+
+                </h1>
+                <p id="site-subtitle">
+                    Tamil Nadu Government Scheme
+                </p>
+            </div>
+            <div class="language-selection">
+                <label for="languageSelect" id="language-label">
+                    Language
+                </label>
+                <select id="languageSelect">
+                    <option value="en">
+                        English
+                    </option>
+                    <option value="ta">
+                        Tamil
+                    </option>
+                    <option value="hi">
+                        Hindi
+                    </option>
+                </select>
+            </div>
+        </header>
+        <main>
+            <section class="Welcome-section">
+                <h2 id="welcome-title">
+                    Welcome!
+                </h2>
+                <p id="welcome-text">
+                    Find government schemes based on your needs,eligibility and requirements.
+                </p>
+            </section>
+            <section class="ai-section">
+                <h2 id="ai-title">
+                    Ask the AI Assistant
+                </h2>
+                <p id="ai-description">
+                    Ask questions about Tamil Nadu government schemes in English, Tamil, or Hindi.
+                </p>
+                <div class="chat-box">
+                    <div id="chatMessages" class="chat-messages">
+                        <div class="ai-message">
+                            <strong id="ai-name">
+                                AI Assistant
+                            </strong>
+                            <p id="ai-welcome">
+                                Hello! How can I help you with finding a government scheme today?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="chat-input-area">
+                        <input 
+                            type="text"
+                            id="userQuestion"
+                            placeholder="Type your question here..."
+                            >
+                            <button id="askButton">
+                                Ask
+                            </button>
+                    </div>
+                </div>
+            </section>
+            <section class="state-section">
+                <div class="state-card">
+                    <h2 id ="state-name">
+                        Tamil Nadu Government Schemes
+                    </h2>
+                    <p id="state-description">
+                        Explore various government schemes offered by the Tamil Nadu government to support citizens in different sectors.
+                    </p>
+                </div>
+            </section>
+            <section class="search-section">
+                <h2 id="search-title">
+                    Search for Government Schemes
+                </h2>
+                <div class="search-box">
+                    <input 
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search for a scheme..."
+                        >
+                    <button id="searchButton">
+                        Search
+                    </button>
+                </div>
+            </section>
+            <section class="search-selection">
+                <h2 id=""sector-title>
+                    Select a Sector
+                </h2>
+                <div class="search-container">
+                    <div
+                    class="sector-card"
+                    data-sector="Education"
+                    >
+                        <h3 data-key="education">
+                            Education
+                        </h3>
+                        <p data-key="education-description">
+                            Education related Schemes.
+                        </p>
+                        </div>
+                    <div
+                    class="sector-card"
+                    data-sector="Healthcare"
+                    >
+                        <h3 data-key="healthcare">
+                            Healthcare
+                        </h3>
+                        <p data-key="healthcare-description">
+                            Healthcare related Schemes.
+                        </p>
+                    </div>
+                    <div
+                    class="sector-card"
+                    data-sector="Women & Child Welfare"
+                    >
+                        <h3 data-key="women-child-welfare">
+                            Women & Child Welfare
+                        </h3>
+                        <p data-key="women-child-welfare-description">
+                            Schemes for women and child welfare.
+                        </p>
+                    </div>
+                    <div
+                    class="sector-card"
+                    data-sector="scholarship"
+                    >
+                        <h3 data-key="scholarship">
+                            Scholarships
+                        </h3>
+                        <p data-key="scholarship-description">
+                             StudentScholarship related Schemes.
+                        </p>
+                    </div>
+                    <div
+                    class="sector-card"
+                    data-sector="diasability"
+                    >
+                        <h3 data-key="diasability">
+                            Diasability
+                        </h3>
+                        <p data-key="diasability-description">
+                            Schemes for differently abled persons.
+                        </p>
+                </div>
+                <div
+                    class="sector-card"
+                    data-sector="Agriculture"
+                    >
+                        <h3 data-key="agriculture">
+                            Agriculture
+                        </h3>
+                        <p data-key="agriculture-description">
+                            Schemes for farmers
+                        </p>
+                </div>
+                <div
+                    class="sector-card"
+                    data-sector="Employment"
+                    >
+                        <h3 data-key="employment">
+                            Employment
+                        </h3>
+                        <p data-key="employment-description">
+                            Employment related Schemes.
+                        </p>
+                </div>
+                <div
+                    class="sector-card"
+                    data-sector="Housing"
+                    >
+                        <h3 data-key="housing">
+                            Housing
+                        </h3>
+                        <p data-key="housing-description">
+                            Housing related Schemes.
+                        </p>
+                </div>
+            </div>
+        </section>
+        <section class="scheme-section">
+            <h2 id="scheme-title">
+                Government Schemes
+            </h2>
+            <div id="schemeContainer">
+                <p id="scheme-message">
+                    Select a sector to view available schemes.
+                </p>
+            </div>
+        </section>
+        <section
+            class="details-section">
+            id="detailsSection"
+            style="display: none;"
+        >
+            <h2 id="details-title">
+                Scheme Details
+            </h2>
+            <div id="schemeDetails">
+            </div>
+        </section>
+        </main>
+        <footer class="footer">
+            <p id="footer-text">
+                Multilingual Government Scheme Assistant | Tamil Nadu
+            </p>
+        </footer>
+    <script src="script.js">  
+    </script>
+</body>
 </html>
