@@ -5,5 +5,5 @@ function searchSchemes(schemes, keyword) {
     );
 }
 module.exports = {
-        searchSchemes
+    searchSchemes
 };
