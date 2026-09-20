@@ -1,1 +1,23 @@
-[]
+[
+    {
+        "name": "EVR Nagammai Scholarship",
+        "sector": "Education",
+        "eligibility": "Girl students pursuing postgraduate degree courses in Arts and Science from a recognised college in Tamil Nadu.",
+        "benefit": "Variable financial assistance",
+        "apply": "Apply through the Directorate of Collegiate Education"
+    },
+    {
+        "name": "Post-Matric Scholarship for BC MBC DNC Students",
+        "sector": "Scholarships",
+        "eligibility": "BC, MBC and DNC students pursuing eligible college, professional, diploma, postgraduate or PhD courses, subject to scheme conditions.",
+        "benefit": "Tuition fee, special fee, examination fee and other eligible educational assistance as applicable",
+        "apply": "Apply through the institution / Unified State Scholarship Portal as applicable"
+    },
+    {
+        "name": "Scholarship for Differently Abled Students",
+        "sector": "Disability",
+        "eligibility": "Differently abled students from school level through higher and professional education, subject to the applicable conditions.",
+        "benefit": "Financial assistance based on level of study",
+        "apply": "Apply through the concerned District Differently Abled Welfare Officer"
+    }
+]
