@@ -1,4 +1,4 @@
-function generateResponse(question,language, schemeData){
+function generateResponse(question, language, schemeData) {
     return {
         question: question,
         language: language,
@@ -6,4 +6,4 @@ function generateResponse(question,language, schemeData){
         message: "LLM response will be generated here."
     };
 }
-Module.exports = generateResponse;
+module.exports = generateResponse;
